@@ -20,7 +20,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient("product", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:80");
+    client.BaseAddress = new Uri("http://productservice");
 });
 
 
